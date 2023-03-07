@@ -1,0 +1,239 @@
+/* General */
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.info-all a{
+    color: rgb(3, 102, 76);
+    text-decoration: none;
+}
+.loading-image{
+    height: 100vh;
+    background-color: black;
+}
+p{
+    color: #ffffff;
+}
+.unload{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-load{
+    position: absolute;
+    width: 250px;
+    margin-top: 850px;
+}
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.credit p{
+    margin-top: 800px;
+    color: white;
+}
+.game{
+    display: flex;
+    width: auto;
+    height: 864px;
+}
+hr{
+    background-color: aliceblue;
+    height: 0.1px;
+    margin-top: 12px;
+}
+.line{
+    height: 1px;
+    background-color: rgb(220, 237, 253);
+}
+
+/* Interfaz Principal */
+.logo{
+    padding: 3px;
+    width: 75px;
+}
+.prime{
+    width: 50px;
+    padding: 13px;
+}
+.rank{
+    width: 60px;
+    padding: 8px;
+}
+
+.status-prime p{
+    color: #ffff;
+}
+.opcion{
+    justify-items: start;
+    background-color: rgb(122,149,180);
+    width: 5%;
+    position: relative;
+    transition: 0.3s;
+    line-height: 10px;
+}
+
+.player{
+    background-color: rgb(122,149,180);
+    width: 5%;
+    position: relative;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+section{
+    
+    background-image: url("../img/nuke.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    z-index: 1;
+}
+.user-data ul{
+    list-style: none;
+}
+.user-icon{
+    width: 65px;
+    padding: 6px;
+}
+.white-line{
+    background-color: #ffff;
+    margin-top: -15px;
+    margin-left: 14px;
+    padding: 3px;
+    width: 40px;
+}
+.other-user{
+    width: 50px;
+    padding: 13px;
+}
+.hidden{
+    overflow: hidden;
+}
+.case{
+    display: flex;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.img-character{
+    position: absolute;
+}
+.bx-slider{
+    position: absolute;
+    display: block;
+    margin-top: 88vh;
+    margin-left: 150vh;
+    font-size: 30px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 20px;
+}
+.img-character img{
+    display: block;
+    margin-left: 770px;
+    margin-top: 80px;
+    width: 500px;
+}
+/* INFO-NEWS */
+.block-info{
+    display: flex;
+}
+.info{
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 90vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color:rgb(122,149,180) ;
+    z-index: -1;
+}
+.info-top{
+    display: flex;
+    color: #ffff;
+}
+.img-info{
+    width: 230px;
+}
+.info-all{
+    padding: 15px;
+}
+.info-all li{
+    display: flex;
+    margin-top: 15px;
+    color: #ffff;
+}
+.info-all li p{
+    margin-left: 30px
+}
+.info-top i{
+    margin-left: 13px;
+}
+
+
+/* Icons*/
+.bxs-briefcase{
+    padding: 12px;
+    font-size: 50px;
+    color: #ffff;
+    margin-top: 10px;
+}
+.bx-tv{
+    padding: 12px;
+    font-size: 50px;
+    color: #ffff;
+    margin-top: 10px;
+}
+.bx-cog{
+    padding: 12px;
+    font-size: 50px;
+    color: #ffff;
+    margin-top: 10px;
+}
+.fa-circle-play{
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+.fa-tower-broadcast{
+    margin-top: 5px;
+    font-size: 40px;
+    padding: 13px;
+    color: white;
+}
+.bx-power-off{
+    font-size: 40px;
+    padding: 18px;
+    color: white;
+    margin-top: 325px;
+}
+.bxs-user{
+    font-size: 40px;
+    padding: 18px;
+    color: white;
+}
+
+
+
+/* Animaciones */
+.player:hover{
+    width: 20%;
+} 
+i:hover{
+    color: rgb(127, 122, 122);
+}
+.overlay::before{
+    margin-top: 10px;
+    width: 250px;
+    height: 62.2vh;
+    position: absolute;
+    content: "";
+    color: #ffffff;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 2;
+}
